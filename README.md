@@ -9,5 +9,5 @@ change the connection string to match your sql server
   * go look at your server connection the sql studio by right clicking your Database Engine in the Object Explore 
   * click on Properties. In bottom left corner look at Connection Server
   * Use that to change the connection string Data Source
-- CLick the green start button in visual studio 
+- Click the green start button in visual studio 
       
