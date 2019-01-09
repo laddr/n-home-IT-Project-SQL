@@ -1,0 +1,23 @@
+LoginForm
+--------------------------------------
+	Name	|	 Type	 |	 Text
+--------------------------------------
+lblUsername | Label		 | Username
+lblPassword | Label		 | Password
+txtUsername | TextBox	 |
+txtPassword | TextBox	 |
+btnLogin	| Button	 | Login
+
+
+
+
+
+
+DashboardForm
+---------------------------------
+	Name		|	 Type
+---------------------------------
+lblEmployeeID	| Label
+lblFullName		| Label
+lblDateOfBirth	| Label
+lblAccessType	| Label

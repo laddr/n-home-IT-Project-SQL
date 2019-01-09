@@ -1,0 +1,35 @@
+Things To Know About This Test
+=====================================
+
+The point of entry is the Program.cs file.
+Inside here, you will find code for setup and the actual application startup code.
+
+The startup code consists of a list of Employees and an Employee Service. 
+This list will be retrieved from a database using the Employee Service in a real world scenario. 
+For the sake of this example, we just hard-code 4 different cases of Employees. Admin, Manager, Basic, and Terminated.
+
+Then that list is given to the Employee Service to use.
+The Employee Service's responsibility is to manage that list and perform any back-end operations, such as Create, Read, Update, and Delete (CRUD)
+The Employee Service is then given to the LoginForm. The LoginForm will use it to authenticate an Employee.
+
+Once an Employee is authenticated, the Employee object that is provided from the Employee Service will be given to the DashboardForm.
+The DashboardForm will then display the Employee's data.
+
+
+
+
+
+Things To Know About The Windows Forms Project
+=====================================================
+
+A Windows Form is composed of 2 files, the *.cs file and the *.Designer.cs file.
+The .cs file is what you will work in.
+When working in the UI designer window for the form, dragging & dropping controls from the Toolbox, the code is being generated in the .designer file.
+To get to the actual code you will work in, 
+you can press F7 while in the UI designer window or right click on the form in the Solution Explorer and select View Code.
+
+By pressing F12 while the text cursor is over the InitializeComponent function inside the Constructor, you will be taken to the .designer.cs file.
+It is a generated file so no need to ever work in it.
+
+The MetroFormBase class is created using the MetroUI Framework. This is implemented in another project.
+If you are interested in how that works, feel free to inspect the code. No need to go into detail at this level.

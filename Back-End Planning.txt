@@ -1,0 +1,36 @@
+Employee
+--------------------------------------------------------
+	Type/Returns	|		Name	  |
+--------------------------------------------------------
+int					| EmployeeID	  | Property (Read/Write)
+string				| Username		  | Property (Read/Write)
+string				| Password		  | Property (Read/Write)
+string				| FirstName		  | Property (Read/Write)
+string				| LastName		  | Property (Read/Write)
+DateTime			| DateOfBirth	  | Property (Read/Write)
+bool				| IsActive		  | Property (Read/Write)
+enum				| AccessLevel	  | Property (Read/Write)
+
+
+
+
+
+
+AccessLevel
+---------------------------------
+	Name		|	 Value
+---------------------------------
+Administator	| 1
+Management		| 2
+Basic			| 3
+
+
+
+
+
+EmployeeService
+------------------------------------------------------------
+	Type/Returns	 |		Name	  |
+------------------------------------------------------------
+List<Employee>		 | _employees	  | Field (Read Only)
+Employee			 | Login		  | Function (public)
