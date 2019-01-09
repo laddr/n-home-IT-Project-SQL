@@ -1,6 +1,7 @@
 # n-home-IT-Project-SQL
 
-### To run have .net and microsoft visual studio installed on a windows computer
+### To run 
+- have.net and microsoft visual studio installed on a windows computer
 - open project by clicking on the .sln file
 - install microsoft sql server and microsoft sql server management studio 
 - create a new database called n-Home IT Project
